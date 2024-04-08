@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.website__header {
+    flex-direction: column;
+    width: 100%;
+    background: #014E56;
+    padding: 73px 8.7%;
+    padding-bottom: 120px;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__nav img {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    width: 49px;
+    height: 28px;
+    align-items: center;
+}
+
+.header__nav button {
+    width: 140px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    align-items: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    align-items: center;
+}
+
+.header__nav button:hover {
+    background-color: white;
+    color: #002529;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__bottom {
+    display: flex;
+    gap: 100px;
+    margin: 120px 165px;
+}
+
+h1 {
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    color: white;
+}
+
+.p {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+}
+
+.main__section2 {
+    flex-direction: column;
+    padding: 0 165px;
+    padding-top: 133.9px;
+    padding-bottom: 113.9px;
+    background-color: #012F34;
+}
+
+.p2 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.section2__img {
+    display: flex;
+    gap: 80px;
+    margin-top: 56.97px;
+}
+
+.section2__img {
+    width: 165px;
+    height: 22.79px;
+}
+
+.web__main__section {
+    flex-direction: column;
+    justify-content: center;
+    background-color: #004047;
+    gap: 30px;
+    padding: 71px 165px;
+    padding: 148px;
+}
+
+.web__main__section1 {
+    display: flex;
+    gap: 30px;
+    margin-top: 69.5px;
+}
+
+.h1 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.section1__card {
+    position: relative;
+    width: 350px;
+    height: 274.73px;
+    padding: 32px 24px;
+    padding-bottom: 0;
+    background: #012F34;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.p1 {
+    margin-top: 23px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+.p12 {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+}
+
+.img {
+    position: absolute;
+    top: 245px;
+}
+
+.section__3 {
+    display: flex;
+    align-items: center;
+    padding: 76px 260px;
+    justify-content: space-between;
+    background: #F67E7E;
+}
+
+.p3 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #012F34;
+    cursor: pointer;
+}
+
+.section__3 button {
+    width: 153px;
+    height: 48px;
+    border: 1.5px solid #012F34;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.section__3 button:hover {
+    background-color: #012F34;
+    color: #F67E7E;
+    border: none;
+}
+
+.web__footer {
+    display: flex;
+    background-color: #002529;
+    padding: 48px 170px;
+    justify-content: space-between;
+}
+
+.footer__img {
+    gap: 16px;
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+
+@media(max-width:768px) {
+    .header__bottom {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .p {
+        text-align: center;
+    }
+
+    .web__main__section {
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        padding: 100px 43px;
+    }
+
+    .web__main__section1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .section1__card {
+        width: 281px;
+        height: 253px;
+        margin-top: 48px;
+    }
+
+    .main__section2 {
+        padding: 0;
+        padding: 100px 18px;
+    }
+
+    .section2__img {
+        gap: 49px;
+    }
+
+    .section2__img img {
+        width: 103px;
+        height: 17px;
+    }
+
+    .section__3 {
+        padding: 84px 43px;
+    }
+
+    .p3 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .web__footer {
+        padding: 31px 120px;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+
+
+    .header__nav img {
+        display: block;
+    }
+
+    .header__nav nav {
+        display: none;
+    }
+
+    .header__nav button {
+        display: none;
+    }
+
+    .header__bottom {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        margin-top: 80px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .h1 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .p2 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .main__section2 {
+        width: 100%;
+        padding: 72px 24px;
+        height: 517.68px;
+    }
+
+    .section2__img {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 55px;
+        margin-left: 106px;
+        margin-right: 106px;
+    }
+
+    .section2__img img {
+        width: 146.56px;
+        height: 30px;
+    }
+
+    .section__3 {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .p3 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+
+    }
+
+    .section__3 button {
+        width: 153px;
+        height: 48px;
+    }
+
+    .web__footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        justify-content: center;
+    }
+    .footer__img{
+        align-items: center;
+        justify-content: center;
+    }
+}
