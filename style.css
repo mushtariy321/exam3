@@ -301,7 +301,7 @@ h1 {
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:430px) {
 
 
     .header__nav img {
@@ -351,8 +351,7 @@ h1 {
         flex-direction: column;
         align-items: center;
         margin-top: 55px;
-        margin-left: 106px;
-        margin-right: 106px;
+        margin-left: 92px;
     }
 
     .section2__img img {
